@@ -1,0 +1,35 @@
+.conteiner {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.card {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.cardContent{
+  text-align: left;
+}
+.commentContent{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.commentContentText{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.autorCommentAll{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 5px 5px 5px 5px;
+}
+.autorComment{
+  margin: 5px 5px 5px 5px;
+}

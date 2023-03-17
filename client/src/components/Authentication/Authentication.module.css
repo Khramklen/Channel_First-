@@ -1,0 +1,76 @@
+.formGroup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.emailInputs {
+  display: flex;
+  margin-top: 150px;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 400px;
+  flex-direction: column;
+  margin: 10px;
+  padding: 20px;
+}
+
+.formControlLog {
+  font-size: 24px;
+  padding: 10px;
+  margin: 10px 0;
+  border: 0;
+  border-bottom: 2px solid #1976d2;
+  box-shadow: 0 0 10px 3px #1976d2;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.btnLog {
+  width: 150px;
+  height: 60px;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 2px;
+  color: #1976d2;
+  text-align: center;
+  line-height: 20px;
+  display: block;
+  margin: 20px auto;
+  font-family: 'RF Rostin';
+  border-radius: 10px;
+  border: 0;
+  font-size: 20px;
+  border-bottom: 2px solid #1976d2;
+  box-shadow: 0 0 10px 3px #1976d2;
+}
+
+.btnLog:not(.active) {
+  text-shadow: 0 0 21px rgba(223, 206, 228, 0.5), 0 -1px 0 #1976d2;
+}
+
+.btnLog:not(.active):hover,
+.btnLog:not(.active):focus {
+  transition: color 200ms linear, text-shadow 500ms linear;
+  color: black;
+  text-shadow: 0 0 21px rgba(223, 206, 228, 0.5), 0 0 10px rgba(223, 206, 228, 0.4), 0 0 2px #1976d2;
+}
+
+.btnLog:not(:hover) {
+  transition: 0.6s;
+}
+
+h2 {
+  color: #1976d2 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  margin-bottom: 20px;
+}
+
+::-webkit-input-placeholder {
+  font-size: medium
+}
